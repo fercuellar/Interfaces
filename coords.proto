@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package coords;
+
+message CoordRequest {
+  string frame_id = 1;
+}
+
+message CoordResponse {
+  double x = 1;
+  double y = 2;
+  double z = 3;
+}
+
+service CoordService {
+  rpc GetCoords (CoordRequest) returns (stream CoordResponse) {}
+}
