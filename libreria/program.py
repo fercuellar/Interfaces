@@ -1,5 +1,6 @@
 import ctypes
 
+#put your path for the .so 
 lib = ctypes.CDLL("/home/fercuellar/Desktop/Robotica/catkin_ws/src/midterm/Scripts/libreria/libmy_library.so")
 
 x = ctypes.c_float(1)
