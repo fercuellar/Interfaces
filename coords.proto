@@ -2,16 +2,19 @@ syntax = "proto3";
 
 package coords;
 
-message CoordRequest {
-  string frame_id = 1;
+message PointStamped {
+
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    uint32 seq = 4;
+    uint64 stamp = 5;
+    string frame_id = 6;
 }
 
-message CoordResponse {
-  double x = 1;
-  double y = 2;
-  double z = 3;
-}
+message Empty{}
 
-service CoordService {
-  rpc GetCoords (CoordRequest) returns (stream CoordResponse) {}
+
+service CoordsComm{
+  rpc getCoords(Empty) returns (PointStamped) {}
 }
