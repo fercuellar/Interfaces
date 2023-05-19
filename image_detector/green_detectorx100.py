@@ -14,6 +14,10 @@ class GreenObjectDetector:
         self.coord_pub = rospy.Publisher("/green_object_coordinates", Point, queue_size=10)
         self.coord_pub_multiplier = rospy.Publisher('coordsx100', PointStamped, queue_size=10)
 
+        self.point = PointStamped()
+        self.point.header.frame_id = 'Camara'
+        self.point.point.z = 0
+
     def image_callback(self, data):
         try:
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
@@ -46,18 +50,17 @@ class GreenObjectDetector:
             green_point.x = cx
             green_point.y = cy
             green_point.z = 0
-            point = PointStamped()
-            point.header.stamp = rospy.Time.now()
+            
+            self.point.header.stamp = rospy.Time.now()
 
             x100 = ctypes.c_float(cx)
             y100 = ctypes.c_float(cy)
             z100 = ctypes.c_float(0)
             lib.multiply_coords(ctypes.pointer(x100),ctypes.pointer(y100),ctypes.pointer(z100))
-            point.point.x = x100.value
-            point.point.y = y100.value
-            point.point.z = z100.value
-
-            self.coord_pub_multiplier.publish(point)
+            self.point.point.x = x100.value
+            self.point.point.y = y100.value
+            
+            self.coord_pub_multiplier.publish(self.point)
             self.coord_pub.publish(green_point)
             
             # Dibujar contorno en la imagen original

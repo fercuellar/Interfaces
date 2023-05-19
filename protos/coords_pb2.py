@@ -13,17 +13,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0c\x63oords.proto\x12\x06\x63oords\" \n\x0c\x43oordRequest\x12\x10\n\x08\x66rame_id\x18\x01 \x01(\t\"0\n\rCoordResponse\x12\t\n\x01x\x18\x01 \x01(\x01\x12\t\n\x01y\x18\x02 \x01(\x01\x12\t\n\x01z\x18\x03 \x01(\x01\x32L\n\x0c\x43oordService\x12<\n\tGetCoords\x12\x14.coords.CoordRequest\x1a\x15.coords.CoordResponse\"\x00\x30\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0c\x63oords.proto\x12\x06\x63oords\"]\n\x0cPointStamped\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x12\x0b\n\x03seq\x18\x04 \x01(\r\x12\r\n\x05stamp\x18\x05 \x01(\x04\x12\x10\n\x08\x66rame_id\x18\x06 \x01(\t\"\x07\n\x05\x45mpty2@\n\nCoordsComm\x12\x32\n\tgetCoords\x12\r.coords.Empty\x1a\x14.coords.PointStamped\"\x00\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'coords_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _COORDREQUEST._serialized_start=24
-  _COORDREQUEST._serialized_end=56
-  _COORDRESPONSE._serialized_start=58
-  _COORDRESPONSE._serialized_end=106
-  _COORDSERVICE._serialized_start=108
-  _COORDSERVICE._serialized_end=184
+  _POINTSTAMPED._serialized_start=24
+  _POINTSTAMPED._serialized_end=117
+  _EMPTY._serialized_start=119
+  _EMPTY._serialized_end=126
+  _COORDSCOMM._serialized_start=128
+  _COORDSCOMM._serialized_end=192
 # @@protoc_insertion_point(module_scope)
