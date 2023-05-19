@@ -9,10 +9,27 @@ from geometry_msgs.msg import PointStamped
 
 
 class Comm(coords_pb2_grpc.CoordsCommServicer):
+    """
+    Clase que implementa el servicio CoordsCommServicer de gRPC.
+    """
     def __init__(self):
+        """
+        Inicializa la clase Comm.
+        """
         print('initialized')
+        
     def getCoords(self, request, context):
-        print('Call reveived')
+        """
+        Método que maneja la solicitud de obtener coordenadas.
+
+        Args:
+            request: La solicitud recibida del cliente gRPC.
+            context: El contexto de la solicitud.
+
+        Returns:
+            Las coordenadas obtenidas como un objeto PointStamped de coords_pb2.
+        """
+        print('Call received')
         coords = rospy.wait_for_message("/coordsx100", PointStamped)
         coordenadas = coords_pb2.PointStamped(
                 seq=coords.header.seq,
@@ -26,6 +43,9 @@ class Comm(coords_pb2_grpc.CoordsCommServicer):
 
 
 def serve():
+    """
+    Función que inicia el servidor gRPC y se pone en espera de solicitudes.
+    """
     port = '50055'
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     coords_pb2_grpc.add_CoordsCommServicer_to_server(Comm(), server)

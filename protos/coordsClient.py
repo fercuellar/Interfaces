@@ -8,6 +8,10 @@ import midterm.Scripts.protos.coords_pb2_grpc as coords_pb2_grpc
 
 
 def run():
+    """
+    Función que establece una conexión gRPC con el servidor y obtiene coordenadas.
+
+    """
     # NOTE(gRPC Python Team): .close() is possible on a channel and should be
     # used in circumstances in which the with statement does not fit the needs
     # of the code.

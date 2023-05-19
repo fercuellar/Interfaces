@@ -8,12 +8,25 @@ from geometry_msgs.msg import Point
 
 
 class GreenObjectDetector:
+    """
+    Clase que detecta objetos verdes en una imagen y publica las coordenadas del objeto detectado.
+    """
+
     def __init__(self):
+        """
+        Inicializa el objeto GreenObjectDetector.
+        """
         self.bridge = CvBridge()
         self.image_sub = rospy.Subscriber("camera/image_raw", Image, self.image_callback)
         self.coord_pub = rospy.Publisher("/green_object_coordinates", Point, queue_size=10)
 
     def image_callback(self, data):
+        """
+        Callback para procesar la imagen recibida del suscriptor de imagen.
+
+        Args:
+            data: Mensaje de imagen recibido.
+        """
         try:
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
         except CvBridgeError as e:
