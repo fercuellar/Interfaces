@@ -3,8 +3,8 @@ from __future__ import print_function
 import logging
 
 import grpc
-import midterm.Scripts.protos.coords_pb2 as coords_pb2
-import midterm.Scripts.protos.coords_pb2_grpc as coords_pb2_grpc
+import coords_pb2 as coords_pb2
+import coords_pb2_grpc as coords_pb2_grpc
 
 
 def run():
