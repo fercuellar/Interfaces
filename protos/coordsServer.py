@@ -46,7 +46,7 @@ def serve():
     """
     Función que inicia el servidor gRPC y se pone en espera de solicitudes.
     """
-    port = '50055'
+    port = '50056'
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     coords_pb2_grpc.add_CoordsCommServicer_to_server(Comm(), server)
     server.add_insecure_port('[::]:' + port)
