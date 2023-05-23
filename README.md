@@ -5,4 +5,4 @@ Actividad de MidTerm - Autor: Fernando Cuellar Martinez A00827540
 [Link de Funcionamiento para arduino con Protobuf](https://drive.google.com/file/d/1giKIJEYNWWy6wwcf7OErQ0WSMvJpdxPN/view?usp=share_link)\
 
 # Diagrama DFD
-![Interfaces drawio](https://github.com/fercuellar/Interfaces/assets/58601693/5f9058f3-084c-4f05-8d71-7b18ec236a5e)
+![mxGraphModel root mxCell id= 0 _ mxCell id= 1 parent= 0 _ mxCell id= 2 value= DIAGRAMA DFD HECHO POR FERNANDO CUELLAR style= round](https://github.com/fercuellar/Interfaces/assets/58601693/dc6cab4c-4155-4a42-8fab-bed411c19706)
