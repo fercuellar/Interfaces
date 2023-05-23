@@ -1,0 +1,1 @@
+fercuellar@fercuellar-OMEN-by-HP-Laptop-15-dc1xxx:~/Projects/Interfaces/Interfaces/Proto$ protoc -I ./ --csharp_out ./ ./coords.proto --grpc_out ./ --plugin=protoc-gen-grpc=/home/fercuellar/.nuget/packages/grpc.tools/1.2.2/tools/linux_x64/grpc_csharp_plugin
