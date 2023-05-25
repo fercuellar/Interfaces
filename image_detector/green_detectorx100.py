@@ -84,8 +84,8 @@ class GreenObjectDetector:
         cv2.waitKey(1)
 
 if __name__ == '__main__':
-    lib = ctypes.CDLL("/home/fercuellar/Desktop/Robotica/catkin_ws/src/midterm/Scripts/libreria/libmy_library.so")
-
+    lib = ctypes.CDLL("/home/fercuellar/Desktop/Interfaces/catkin_ws/src/midterm/Scripts/libreria/libmy_library.so")
+    
     rospy.init_node('green_object_detector', anonymous=True)
     green_detector = GreenObjectDetector()
     try:
