@@ -9,4 +9,4 @@ Actividad de MidTerm - Autor: Fernando Cuellar Martinez A00827540
 [Investigacion de CORS](https://github.com/fercuellar/Interfaces/blob/master/CORS/CORS-Extra%20Points.pdf)
 
 # Diagrama DFD
-![mxGraphModel root mxCell id= 0 _ mxCell id= 1 parent= 0 _ mxCell id= 2 value= DIAGRAMA DFD HECHO POR FERNANDO CUELLAR style= round](https://github.com/fercuellar/Interfaces/assets/58601693/dc6cab4c-4155-4a42-8fab-bed411c19706)
+![Interfaces](https://github.com/fercuellar/Interfaces/assets/58601693/359852f7-0fe3-494e-be3d-12df2e0dbe75)
