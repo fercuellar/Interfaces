@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "grpc_yt/gen/proto"
+	pb "GO/gen/proto"
 	"log"
 
 	"net"
