@@ -27,7 +27,7 @@ Otros archivos que no se deben de documentar o incluso tocar en absoluto son los
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/2a02603a-9f9b-478b-ba64-9a8510292b52)
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/97e677d4-56bd-41f9-9191-d57ef78a1c80)
 #    2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
-![image](https://github.com/fercuellar/Interfaces/assets/58601693/9161f84a-4265-426d-9227-0555320c8934)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/a43e4069-831c-48df-bf08-1036d55418a1)
 #    3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/c8f3a376-86db-4f18-97ee-d9dcde1982f3)
 #    4. Publicar el resultado con su timestamp en un ROS Topic.
