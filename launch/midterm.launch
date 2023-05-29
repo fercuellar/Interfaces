@@ -1,0 +1,7 @@
+<launch>
+    <!-- Ejecutar el nodo green_detectorx100.py -->
+    <node name="green_detectorx100_node" pkg="midterm" type="green_detectorx100.py" output="screen" />
+
+    <!-- Ejecutar el nodo pubimage.py -->
+    <node name="pubimage_node" pkg="midterm" type="pubimage.py" output="screen" />
+</launch>
