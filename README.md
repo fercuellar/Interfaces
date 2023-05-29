@@ -36,6 +36,7 @@ Otros archivos que no se deben de documentar o incluso tocar en absoluto son los
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/609c032e-ffe8-42ef-b160-598bb5d5f44b)
 #    6. En C# crear un programa que tome las coordenadas del objeto desde el servicio RPC y las despliegue en la terminal. (De preferencia en Windows con Visual Studio, pero se puede utilizar Java o MonoDevelop en Linux).
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/785545a7-a9ff-40ec-8ba3-856b0ed8b02e)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/8e8c5a56-1e1e-4462-82c0-b6dd8e0b0297)
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/d10deb10-31d2-44b4-962c-bcd40db33f30)
 #    7. Utilizar grpc-Gateway para que el Wrapper haga disponible el servicio como un REST-API
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/fbf7df35-6dd1-41bd-b7f3-fa6816607442)
