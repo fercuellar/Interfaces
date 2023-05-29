@@ -17,7 +17,7 @@ func main() {
 
 	client := pb.NewTestApiClient(conn)
 
-	resp, err := client.GetUser(context.Background(), &pb.UserRequest{Uuid: "Jorge"})
+	resp, err := client.GetUser(context.Background(), &pb.UserRequest{Uuid: "Fernando"})
 	if err != nil {
 		log.Println(err)
 	}
