@@ -30,7 +30,7 @@ Otros archivos que no se deben de documentar o incluso tocar en absoluto son los
 
 ## 2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
 
-![Captura de imagen](https://github.com/fercuellar/Interfaces/assets/58601693/711719d6-36c2-4139-a477-4fb11d56c746)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/6981c666-f6c4-4c48-94ad-86af220e7ed5)
 
 ## 3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
 
