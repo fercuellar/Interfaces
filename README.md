@@ -24,10 +24,23 @@ Otros archivos que no se deben de documentar o incluso tocar en absoluto son los
 
 
 #    1. Capturar una imagen de la webcam por un ROS Node en Python (en Linux), detectar un objeto verde en la imagen, calcular las coordenadas X y Y del objeto (se puede utilizar un Aruco para el mismo fin).
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/2a02603a-9f9b-478b-ba64-9a8510292b52)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/97e677d4-56bd-41f9-9191-d57ef78a1c80)
 #    2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/9161f84a-4265-426d-9227-0555320c8934)
 #    3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/c8f3a376-86db-4f18-97ee-d9dcde1982f3)
 #    4. Publicar el resultado con su timestamp en un ROS Topic.
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/e379c2fd-edd7-4575-9d0f-fc22e6f8f1cf)
 #    5. Crear un Wrapper de gRPC para convertir el ROS Topic de las coordenadas del objeto a un servicio RPC.
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/8876cb38-b98d-4c06-99ff-2be69b17561c)
 #    6. En C# crear un programa que tome las coordenadas del objeto desde el servicio RPC y las despliegue en la terminal. (De preferencia en Windows con Visual Studio, pero se puede utilizar Java o MonoDevelop en Linux).
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/785545a7-a9ff-40ec-8ba3-856b0ed8b02e)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/e9aa76bf-f60f-4ca1-bdc8-f0254baa1220)
 #    7. Utilizar grpc-Gateway para que el Wrapper haga disponible el servicio como un REST-API
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/fbf7df35-6dd1-41bd-b7f3-fa6816607442)
 #    8. En Postman (o Flask en Python), adquirir las coordenadas de objeto desde el nuevo REST-API, y guardar el dato en un archivo JSON.
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/53d59385-d758-4891-a9d6-a9d4a550e579)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/e440fdf6-fe77-4759-a50b-1c55d2672829)
+
+
