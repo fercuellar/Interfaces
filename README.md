@@ -1,7 +1,9 @@
 # Interfaces
 Actividad de MidTerm - Autor: Fernando Cuellar Martinez A00827540\
 
-El siguiente contenido de folders y archivos se encuentran dentro de un paquete llamado midterm, si usted desea copiar este a su entorno, favor de crear un catkinws para dentro de src, crear un paquete y poner todos los archivos dentro de ese paquete (midterm en mi caso para los archivos launch), la carpeta de launch tambien debe ir en nivel jerárquico dentro de src
+El siguiente contenido de folders y archivos se encuentran dentro de un paquete llamado midterm, si usted desea copiar este a su entorno, favor de crear un catkinws para dentro de src, crear un paquete y poner todos los archivos dentro de ese paquete (midterm en mi caso para los archivos launch) dentro de un folder para tener organizacion, la carpeta de launch tambien debe ir en nivel jerárquico dentro del paquete mismo.
+![route](https://github.com/fercuellar/Interfaces/assets/58601693/8dbd2062-30b5-492a-81dd-d5fb499c6a11)
+
 
 # Links de videos
 [Link de video Funcionamiento Paso 1 a 6](https://drive.google.com/file/d/1emYHH88Ft-TMoo0sp1uwgtTFQWfG-5P-/view?usp=share_link)\
