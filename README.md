@@ -33,7 +33,7 @@ Otros archivos que no se deben de documentar o incluso tocar en absoluto son los
 #    4. Publicar el resultado con su timestamp en un ROS Topic.
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/e379c2fd-edd7-4575-9d0f-fc22e6f8f1cf)
 #    5. Crear un Wrapper de gRPC para convertir el ROS Topic de las coordenadas del objeto a un servicio RPC.
-![image](https://github.com/fercuellar/Interfaces/assets/58601693/8876cb38-b98d-4c06-99ff-2be69b17561c)
+![image](https://github.com/fercuellar/Interfaces/assets/58601693/609c032e-ffe8-42ef-b160-598bb5d5f44b)
 #    6. En C# crear un programa que tome las coordenadas del objeto desde el servicio RPC y las despliegue en la terminal. (De preferencia en Windows con Visual Studio, pero se puede utilizar Java o MonoDevelop en Linux).
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/785545a7-a9ff-40ec-8ba3-856b0ed8b02e)
 ![image](https://github.com/fercuellar/Interfaces/assets/58601693/e9aa76bf-f60f-4ca1-bdc8-f0254baa1220)
