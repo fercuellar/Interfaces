@@ -14,7 +14,7 @@ El siguiente contenido de folders y archivos se encuentran dentro de un paquete 
 [Investigacion de CORS](https://github.com/fercuellar/Interfaces/blob/master/CORS/CORS-Extra%20Points.pdf)
 
 # Diagrama DFD
-![inter](https://github.com/fercuellar/Interfaces/assets/58601693/15730ca4-92d1-4cc3-8752-498287233ba3)
+![Interfaceswio](https://github.com/fercuellar/Interfaces/assets/58601693/8ab8e2c9-decf-492f-9109-638ce87b8026)
 
 # Que no se puede docuemntar en Doxygen 
 
